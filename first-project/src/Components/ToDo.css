@@ -1,0 +1,78 @@
+.todo{
+    text-align: center;
+    margin: 80px;
+    padding-top: 20px;
+    border: 1px dashed #f00;
+}
+
+.todo-logo,
+.todo-form,
+.todo-lists {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.input {
+    margin: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #143cde;
+    color: #fff;
+}
+.button:hover {
+    color: white;
+    background-color: black;
+}
+
+.todo-lists h3 {
+    color: #f00;
+    margin: 5px 0;
+}
+
+.todo-lists ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.todo-lists ul li {
+    color: #843cae;
+}
+
+.todo-removeall {
+    margin: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #143cde;
+    color: #fff;
+    border: none;
+}
+
+.todo-removeall:hover {
+    background-color: #f00;
+}
+.delete {
+    padding: 2px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+}
+.update{
+    padding: 2px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
